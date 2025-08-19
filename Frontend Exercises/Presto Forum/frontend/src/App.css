@@ -1,0 +1,152 @@
+.Card {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
+
+.CardTwo {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Thumbnail {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-style: dashed;
+    width: 50vw;
+    aspect-ratio: 16 / 9;
+    margin-left: auto;  
+    margin-right: auto; 
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    position: relative;
+}
+
+.previewSlide {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1000px;
+    margin-left: auto;  
+    margin-right: auto; 
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    position: relative;
+}
+
+.textBox {
+    position: absolute;
+    font-size: 1em;
+    top: 2.5%;
+    left: 1%;
+    outline-style: solid;
+    outline-color: lightgrey;
+    font-size: 1em;
+    background: white;
+}
+
+.cornerBox {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    cursor: pointer;
+  }
+
+.videoBox {
+    position: absolute; 
+    top: 2.5%;
+    left: 1%;
+    border: solid;
+    border-width: 10px;
+    border-color: red;
+}
+
+.imageBox {
+    position: absolute; 
+    top: 2.5%;
+    left: 1%;
+}
+
+.codeBox {
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+  overflow-x: scroll;
+}
+
+.slideNum {
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+    font-size: 1em;
+    font-family: roboto condensed;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .textDeleteContextMenu {
+    position: absolute;
+    background-color: white;
+    z-index: 2
+  }
+
+  .videoDeleteContextMenu {
+    position: absolute;
+    background-color: white;
+    z-index: 20;
+  }
+
+  .imageDeleteContextMenu {
+    position: absolute;
+    background-color: white;
+    z-index: 20;
+  }
+
+  .bootStrap {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .swiper-button-prev {
+        left: 10px;
+    }
+    .swiper-button-next {
+        right: 10px;
+    }
+  }

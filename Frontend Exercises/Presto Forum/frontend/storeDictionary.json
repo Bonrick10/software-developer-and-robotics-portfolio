@@ -1,0 +1,55 @@
+{
+  "store": {
+    "email": "creators@email.com",
+    "presCount": 1,
+    "zIndex": 1,
+    "presentations": [
+      {
+        "title": "Title of a Presentation",
+        "presId": 0,
+        "author": "creators@email.com",
+        "slides": [
+          {
+            "title": "title of slide",
+            "slideCount": 1,
+            "backgroundColour": "",
+            "gradientDirection": "up",
+            "gradientColourOne": "white",
+            "gradientColourTwo": "black",
+            "colour": false,
+            "gradient": false,
+            "text": [
+              {
+                "width": 0,
+                "height": 0,
+                "text": "text",
+                "fontSize": 0,
+                "textColour": "hex",
+                "fontFamily": "fontFamily",
+                "zIndex": 0
+              }
+            ],
+            "video": [
+              {
+                "width": 0,
+                "height": 0,
+                "URL": "URL",
+                "autoPlay": false,
+                "zIndex": 0
+              }
+            ],
+            "image": [
+              {
+                "dimX": 50,
+                "dimY": 100,
+                "src": "some.png",
+                "alt": "An image of something",
+                "zIndex": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
