@@ -1,0 +1,35 @@
+{
+  "entities": [
+    {
+      "type": "player",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "type": "sword",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "type": "snake_head",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "type": "invincibility_potion",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "type": "treasure",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "type": "exit",
+      "x": 3,
+      "y": 3
+    }
+  ],
+  "goal-condition": { "goal": "treasure" }
+}

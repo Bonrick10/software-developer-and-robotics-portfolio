@@ -1,0 +1,160 @@
+{
+    "entities": [
+        {
+            "x": 1,
+            "y": 1,
+            "type": "player"
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "type": "light_bulb_off",
+            "logic": "co_and"
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "type": "light_bulb_off",
+            "logic": "co_and"
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "type": "light_bulb_off",
+            "logic": "co_and"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "type": "switch"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "type": "switch"
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "type": "switch"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "type": "boulder"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "type": "boulder"
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "type": "boulder"
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "type": "wire"
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "type": "wire"
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "type": "wire"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}

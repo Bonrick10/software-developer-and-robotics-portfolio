@@ -1,0 +1,242 @@
+{
+    "entities": [
+        {
+            "x": 1,
+            "y": 0,
+            "type": "player"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "type": "switch_door",
+            "logic": "and"
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "type": "switch_door",
+            "logic": "or"
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "type": "switch_door",
+            "logic": "xor"
+        },
+        {
+            "x": 3,
+            "y": 14,
+            "type": "switch_door",
+            "logic": "co_and"
+        },
+        {
+            "x": 3,
+            "y": 18,
+            "type": "switch_door",
+            "logic": "co_and"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "type": "switch"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "type": "switch"
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "type": "switch"
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "type": "switch"
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "type": "switch"
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "type": "switch"
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "type": "switch"
+        },
+        {
+            "x": 3,
+            "y": 16,
+            "type": "switch"
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "type": "switch"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "type": "boulder"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "type": "boulder"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "type": "boulder"
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "type": "boulder"
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "type": "boulder"
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "type": "boulder"
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "type": "boulder"
+        },
+        {
+            "x": 3,
+            "y": 15,
+            "type": "boulder"
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "type": "boulder"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 17,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "type": "wall"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "type": "wall"
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "type": "wall"
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "type": "wall"
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "type": "wall"
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "type": "wall"
+        },
+        {
+            "x": 4,
+            "y": 18,
+            "type": "wall"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}
